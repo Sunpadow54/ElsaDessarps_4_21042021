@@ -825,6 +825,25 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+/* Add class for content that must be hidden ( ex: footer link span in order to show only the icon ) */
+.visible-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.visible-hidden:focus {
+    clip: auto;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    width: auto;
+}
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
