@@ -3,7 +3,8 @@
     --secondary-color: #364577; */
     --primary-color :#CE493C;
     --secondary-color: #364577;
-    --third-color:#f8d051;
+    --primary-color-lighter :#d8675c;
+    --secondary-color-lighter: #364577b0;
 }
 
 
@@ -13,8 +14,6 @@ body {
     background: #FFF;
     overflow-x: hidden;
     font-size: 100%;
-/*     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; */
 }
 
 a,
@@ -26,6 +25,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color:black!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -143,7 +143,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -160,7 +160,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -345,7 +345,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    color: var(--primary-color)!important;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -468,7 +468,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
 }
 
 button {
@@ -607,13 +607,12 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
 }
 
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
+    background: rgba(0, 0, 0, 1);
     color: #FFF;
 }
 
@@ -626,7 +625,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
 }
 
 .next-lightbox {
@@ -658,7 +656,8 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+cite {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -684,6 +683,7 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
+    margin-bottom: 8px;
 }
 
 p {
@@ -698,7 +698,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
-}
+} /* useless */
 
 .cta-hero {
     margin-top: 22px;
@@ -733,6 +733,7 @@ h3 {
 }
 
 h1 {
+    line-height: 1.3em;
     color: #333333!important;
 }
 
@@ -763,7 +764,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: var(--secondary-color-lighter);
     padding: 40px 40px 40px 40px;
 }
 
@@ -794,7 +795,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: var(--primary-color-lighter)!important;
     color: #FFFFFF!important;
 }
 
@@ -802,8 +803,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
+.ltc-white:hover,
+.ltc-white:focus {
+    color: black!important;
 }
 
 .ltc-atomic-tangerine {
