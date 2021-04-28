@@ -43,8 +43,10 @@
 		<link rel="shortcut icon" type="image/png" href="favicon.jpg" />
         
         <link rel="stylesheet" type="text/css" href="./css/bootstrap-first.css" />
+        <!-- defer bootstrap css -->
         <link rel="preload" href="./css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="./css/bootstrap.css"></noscript>
+        <!-- defer bootstrap css END -->
 
 		<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" /> -->
 		<link rel="stylesheet" type="text/css" href="style.css" />
@@ -280,6 +282,7 @@
 									src="img/siteweb-journal-local-lyonnais.jpg"
 									alt="visuel-refonte-de-site-journal-local-lyonnais"
 									class="img-responsive portfolio-thumb"
+                                    loading="lazy
 								/>
 							</a>
 							<h3 class="mg-md text-center">
