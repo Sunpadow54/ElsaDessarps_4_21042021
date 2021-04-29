@@ -1,8 +1,9 @@
 :root {
 	--primary-color: #ce493c;
 	--secondary-color: #364577;
-	--primary-color-lighter: #d8675c;
+	--primary-color-light: #d8675c;
 	--secondary-color-lighter: #364577b0;
+    --primary-color-lighter: #f1dedd;
 }
 
 body {
@@ -794,7 +795,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-	background: var(--primary-color-lighter) !important;
+	background: var(--primary-color-light) !important;
 	color: #ffffff !important;
 }
 
@@ -1051,4 +1052,17 @@ h4 {
 	.bloc-mob-center-text {
 		text-align: center;
 	}
+}
+
+/* help block of form */
+.alert-warning {
+    color:#C43E31;
+    border-color: var(--primary-color);
+}
+.alert-danger {
+    color:#C43E31;
+    background-color: #fcf8e3;
+}
+.close {
+    opacity: 0.7;
 }
