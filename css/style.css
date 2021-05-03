@@ -248,7 +248,7 @@ a:hover {
 	padding-right: 0;
 	padding-left: 0;
 }
-#bloc-1-hero h1 {
+#presentation h1 {
 	font-size: 2rem;
 }
 .navbar {
@@ -924,7 +924,7 @@ h4 {
 }
 
 @media (max-width: 600px) {
-    #bloc-3-what-i-do > .bloc-lg {
+    #role > .bloc-lg {
         padding:0;
     }
     #portfolio {
