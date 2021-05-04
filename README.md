@@ -23,8 +23,10 @@ Modifier le code Html et Css du site en suivant les rapports d'optimisation et d
 
 ### GithubPage link
 
+site optimisé : 
+https://sunpadow54.github.io/ElsaDessarps_4_21042021/
 
-
+( voir la version de base: https://sunpadow54.github.io/P4-la-chouette-agence-Start/ )
 
 ### Made with
 
