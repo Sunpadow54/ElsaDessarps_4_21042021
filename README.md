@@ -30,16 +30,24 @@ https://sunpadow54.github.io/ElsaDessarps_4_21042021/
 
 ### Made with
 
-Html / Css 
-
 * VSCode
 
-* tests d'optimisation fait avec :
-`* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr)
-`* [WAVE](https://wave.webaim.org/)
-`* [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
-`* [CCA - color contrast analyser](https://www.tpgi.com/color-contrast-checker/)
-`* [Headingsmap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=fr)
+Tests d'optimisation fait avec :
+ 
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr)
+* [WAVE](https://wave.webaim.org/)
+* [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
+* [CCA - color contrast analyser](https://www.tpgi.com/color-contrast-checker/)
+* [Headingsmap](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=fr)
+
+Images optimisées avec:
+
+* [Compressor](https://compressor.io/)
+* [Convertio](https://convertio.co/fr/)
+
+Javascript & Css :
+
+* [Minify](https://www.minifier.org/)
 
 ### Auteur
 
